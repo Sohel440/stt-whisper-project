@@ -27,8 +27,8 @@ The project was developed iteratively, addressing issues like long-form audio tr
 ## Files
 - `Speech_to_Text.ipynb`: Jupyter notebook for running the STT project in Google Colab.
 - `stt_whisper.py`: Python script for running the STT project locally in a Linux terminal.
-- `the-raven-100-bpm-71717.mp3`: Sample MP3 file (an excerpt from Edgar Allan Poe's *The Raven*).
-- `i-dont-like-you-87027.mp3`: Additional sample MP3 file for testing.
+- `dataset2.mp3`: Sample MP3 file (an excerpt from Edgar Allan Poe's *The Raven*).
+- `dataset1.mp3`: Additional sample MP3 file for testing.
 
 ## Setup Instructions
 
@@ -117,7 +117,7 @@ The project was developed iteratively, addressing issues like long-form audio tr
 4. The transcription will be printed in the terminal.
 
 ## Sample Output
-Using `the-raven-100-bpm-71717.mp3` (an excerpt from *The Raven* by Edgar Allan Poe), the transcription output is:
+Using `dataset2.mp3` (an excerpt from *The Raven* by Edgar Allan Poe), the transcription output is:
 
 ```
 Transcribing audio...
@@ -149,5 +149,5 @@ sudo apt-get install ffmpeg
 
 ## Credits
 - **Whisper Model**: OpenAI, via Hugging Face `transformers` library.
-- **Sample Audio**: `the-raven-100-bpm-71717.mp3` from Freesound.org (public domain).
+- **Sample Audio**: `dataset2.mp3` from Freesound.org (public domain).
 - **Development**: This project was developed iteratively, starting in Google Colab and adapted for local execution on Linux, meeting the requirement for a "working demo on local terminal."
